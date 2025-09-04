@@ -1,0 +1,42 @@
+ gpg --version
+gpg --full-generate-key 
+gpg --list-keys
+ cd Escritorio
+  C:\Users\00081\OneDrive\Desktop\LaboSED1
+ dir
+ cd LaboSED1
+ cd C:\Users\00081\OneDrive\Desktop\LaboSED1
+ gpg --amor --output exportado.asc --export A937AE9F75921A9A94FDB79258162F4D18E8D16F
+ gpg --armor --output exportado.asc --export A937AE9F75921A9A94FDB79258162F4D18E8D16F
+ gpg --export-secret-keys --armor A937AE9F75921A9A94FDB79258162F4D18E8D16F ./my-priv-gpg-key.asc
+ gpg --list-secret-keys
+ gpg --export-secret-keys --armor A937AE9F75921A9A94FDB79258162F4D18E8D16F ./my-priv-gpg-key.asc
+ gpg --export-secret-keys --armor A937AE9F75921A9A94FDB79258162F4D18E8D16F > ./my-priv-gpg-key.asc
+gpg -- import ~C:\Desktop\Llaves\eliaskey.asc~
+gpg -- import C:\Desktop\Llaves\eliaskey.asc
+gpg --import C:\Users\00081\Desktop\Llaves\eliaskey.asc
+gpg --import C:\Desktop\Llaves\eliaskey.asc
+gpg --import C:\Desktop\Llaves\raulkey.gpg
+ gpg --lis-keys
+ gpg --list-keys
+ gpg --edit-key D261F834B93BCE04EDA1881911B9A4AFBE8C624B
+ gpg --list-keys
+ history > history.txt
+ $ history > history.txt
+ Get-History | Out-File history.txt
+ doskey /history > history.txt
+ type history.txt
+ gpg --output history.txt.gpg --symmetric history.txt
+ type history.txt
+ gpg --output history.txt.gpg --symmetric history.txt
+ type history.txt
+ gpg --output history.gpg --symmetric history.txt
+ type history.txt
+ gpg --output history.txt.gpg --symmetric history.txt
+ type history.txt
+ gpg --output historyyyy.txt.gpg --symmetric history.txt
+ type historyyyy.txt
+ cd
+doskey /history > C:\Temp\history.txt
+ doskey /history > C:\Temp\history.txt
+ doskey /history > "%CD%\history.txt"
