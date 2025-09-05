@@ -1,0 +1,22 @@
+🔓 Punto débil de PGP
+La gestión de claves: si la clave privada se filtra o la pública se suplanta, se rompe la seguridad.
+
+🔐 ¿Cuándo usar solo cifrado simétrico?
+Cuando ya compartes la clave, necesitas rapidez, y el entorno es seguro y controlado.
+
+🛡️ Ciclo de vida del desarrollo seguro
+Planificación: definir riesgos.
+
+Análisis: identificar amenazas.
+
+Diseño: aplicar principios seguros.
+
+Codificación: buenas prácticas.
+
+Pruebas: buscar vulnerabilidades.
+
+Despliegue: proteger el entorno.
+
+Mantenimiento: actualizar y monitorear.
+
+Retiro: eliminar sin dejar huellas.
